@@ -1,0 +1,58 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Olympics_Medal_Standings/1.0.0": {
+        "dependencies": {
+          "Microsoft.VisualStudio.SlowCheetah": "4.0.50",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "Olympics_Medal_Standings.dll": {}
+        },
+        "resources": {
+          "en-CA/Olympics_Medal_Standings.resources.dll": {
+            "locale": "en-CA"
+          },
+          "fr-CA/Olympics_Medal_Standings.resources.dll": {
+            "locale": "fr-CA"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.SlowCheetah/4.0.50": {},
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Olympics_Medal_Standings/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualStudio.SlowCheetah/4.0.50": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R9mVHWkoI6KrsVpRN9rvnHDV016d8rtsTO8yWmqqNWWPKdhytpsIEeHOLoatPbCKPhIajAV1hj5f71g3cVj2zg==",
+      "path": "microsoft.visualstudio.slowcheetah/4.0.50",
+      "hashPath": "microsoft.visualstudio.slowcheetah.4.0.50.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    }
+  }
+}
